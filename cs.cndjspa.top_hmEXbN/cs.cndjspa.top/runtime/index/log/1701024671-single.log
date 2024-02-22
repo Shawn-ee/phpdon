@@ -1,0 +1,10 @@
+[2023-11-27T02:51:05+08:00][sql] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-27T02:51:05+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000740s ]
+[2023-11-27T02:51:05+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000458s ]
+[2023-11-27T02:51:05+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000424s ]
+[2023-11-27T02:51:05+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000283s ]
+[2023-11-27T02:51:06+08:00][sql] CONNECT:[ UseTime:0.000310s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-27T02:51:06+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000715s ]
+[2023-11-27T02:51:06+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000424s ]
+[2023-11-27T02:51:06+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000309s ]
+[2023-11-27T02:51:06+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000283s ]

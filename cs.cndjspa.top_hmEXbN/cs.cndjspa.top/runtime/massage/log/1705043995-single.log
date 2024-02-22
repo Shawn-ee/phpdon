@@ -1,0 +1,14 @@
+[2024-01-12T15:19:35+08:00][sql] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-12T15:19:35+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000748s ]
+[2024-01-12T15:19:35+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000330s ]
+[2024-01-12T15:19:35+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_notice_list` [ RunTime:0.000540s ]
+[2024-01-12T15:19:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_service_notice_list` WHERE  `uniacid` = 666  AND `have_look` = 0 LIMIT 1 [ RunTime:0.001038s ]
+[2024-01-12T15:19:35+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_coach_police` [ RunTime:0.000616s ]
+[2024-01-12T15:19:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_service_coach_police` WHERE  `uniacid` = 666  AND `have_look` = 0  AND `status` > -1 LIMIT 1 [ RunTime:0.000427s ]
+[2024-01-12T15:19:45+08:00][sql] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-12T15:19:45+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000718s ]
+[2024-01-12T15:19:45+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000289s ]
+[2024-01-12T15:19:45+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_notice_list` [ RunTime:0.000502s ]
+[2024-01-12T15:19:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_service_notice_list` WHERE  `uniacid` = 666  AND `have_look` = 0 LIMIT 1 [ RunTime:0.001021s ]
+[2024-01-12T15:19:45+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_coach_police` [ RunTime:0.000488s ]
+[2024-01-12T15:19:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_service_coach_police` WHERE  `uniacid` = 666  AND `have_look` = 0  AND `status` > -1 LIMIT 1 [ RunTime:0.000303s ]

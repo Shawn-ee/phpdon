@@ -1,0 +1,7 @@
+[2023-11-29T07:24:15+08:00][sql] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-29T07:24:15+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000775s ]
+[2023-11-29T07:24:15+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000470s ]
+[2023-11-29T07:24:15+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_user_list` [ RunTime:0.000728s ]
+[2023-11-29T07:24:15+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `openid` = 'oNifo5iB1JAqeFHL2X4ecH3KXYdY'  AND `uniacid` = 666  AND `status` = 1 LIMIT 1 [ RunTime:0.000349s ]
+[2023-11-29T07:24:15+08:00][sql] UPDATE `ims_massage_service_user_list`  SET `uniacid` = 666 , `nickName` = '白月光' , `avatarUrl` = 'https://thirdwx.qlogo.cn/mmopen/vi_32/p1ibnqgtkYBHO5CVBHSnGG57cUHP8tYulEDetF2ianiaLFZu7tvaBqFveWX1KM1ZeGmca6wy3X8ic41J2QG1xibEqxSyLyEgSRLfkS765Qk2U3ok/132' , `unionid` = '' , `gender` = 0 , `city` = '' , `province` = '' , `country` = '' , `openid` = 'oNifo5iB1JAqeFHL2X4ecH3KXYdY' , `web_openid` = 'oNifo5iB1JAqeFHL2X4ecH3KXYdY' , `cap_id` = 0 , `last_login_type` = 2  WHERE  `id` = 1588 [ RunTime:0.012760s ]
+[2023-11-29T07:24:15+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `id` = 1588 LIMIT 1 [ RunTime:0.000384s ]

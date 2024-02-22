@@ -1,0 +1,12 @@
+[2023-11-28T20:13:04+08:00][sql] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-28T20:13:04+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000913s ]
+[2023-11-28T20:13:04+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000545s ]
+[2023-11-28T20:13:04+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_config` [ RunTime:0.000487s ]
+[2023-11-28T20:13:04+08:00][sql] SELECT * FROM `ims_massage_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000244s ]
+[2023-11-28T20:13:04+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_short_code_config` [ RunTime:0.000458s ]
+[2023-11-28T20:13:04+08:00][sql] SELECT * FROM `ims_massage_short_code_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000177s ]
+[2023-11-28T20:13:04+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-28T20:13:04+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000731s ]
+[2023-11-28T20:13:04+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000556s ]
+[2023-11-28T20:13:04+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000360s ]
+[2023-11-28T20:13:04+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000278s ]

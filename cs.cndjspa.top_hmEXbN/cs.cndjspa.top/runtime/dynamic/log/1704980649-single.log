@@ -1,0 +1,9 @@
+[2024-01-11T21:43:07+08:00][sql] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-11T21:43:07+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000784s ]
+[2024-01-11T21:43:07+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000304s ]
+[2024-01-11T21:43:07+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_dynamic_list` [ RunTime:0.000793s ]
+[2024-01-11T21:43:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_dynamic_list` `a` LEFT JOIN `ims_massage_service_coach_list` `b` ON `a`.`coach_id`=`b`.`id` WHERE  `a`.`uniacid` = '666'  AND `a`.`status` > '-1' LIMIT 1 [ RunTime:0.000312s ]
+[2024-01-11T21:43:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_dynamic_list` WHERE  `uniacid` = 666  AND `status` > -1 LIMIT 1 [ RunTime:0.000299s ]
+[2024-01-11T21:43:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_dynamic_list` WHERE  `uniacid` = 666  AND `status` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[2024-01-11T21:43:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_dynamic_list` WHERE  `uniacid` = 666  AND `status` = 2 LIMIT 1 [ RunTime:0.000242s ]
+[2024-01-11T21:43:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_dynamic_list` WHERE  `uniacid` = 666  AND `status` = 3 LIMIT 1 [ RunTime:0.000185s ]

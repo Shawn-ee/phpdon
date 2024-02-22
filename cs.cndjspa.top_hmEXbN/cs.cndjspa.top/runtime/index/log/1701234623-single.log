@@ -1,0 +1,13 @@
+[2023-11-29T13:10:22+08:00][sql] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-29T13:10:22+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000827s ]
+[2023-11-29T13:10:22+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000479s ]
+[2023-11-29T13:10:22+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000298s ]
+[2023-11-29T13:10:22+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000281s ]
+[2023-11-29T13:10:23+08:00][sql] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-29T13:10:23+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000740s ]
+[2023-11-29T13:10:23+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000442s ]
+[2023-11-29T13:10:23+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_user_list` [ RunTime:0.000748s ]
+[2023-11-29T13:10:23+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `openid` = 'oNifo5gYMFMab3vNc4vOyGdOk5zU'  AND `uniacid` = 666  AND `status` = 1 LIMIT 1 [ RunTime:0.000315s ]
+[2023-11-29T13:10:23+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `web_openid` = 'oNifo5gYMFMab3vNc4vOyGdOk5zU' LIMIT 1 [ RunTime:0.003400s ]
+[2023-11-29T13:10:23+08:00][sql] INSERT INTO `ims_massage_service_user_list` SET `uniacid` = 666 , `nickName` = '流水' , `avatarUrl` = 'https://thirdwx.qlogo.cn/mmopen/vi_32/gicd5B77jLh6u7KV4PqxnlOmjsLmvzUVpRHmkiaYYULmLdO3VXN5BeH9spzEZIPdlTTb8qicCEaLX0XcbPz9WsUtw/132' , `unionid` = '' , `gender` = 0 , `city` = '' , `province` = '' , `country` = '' , `openid` = 'oNifo5gYMFMab3vNc4vOyGdOk5zU' , `web_openid` = 'oNifo5gYMFMab3vNc4vOyGdOk5zU' , `cap_id` = 0 , `last_login_type` = 2 , `create_time` = 1701234623 , `status` = 1 [ RunTime:0.011762s ]
+[2023-11-29T13:10:23+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `id` = 3902 LIMIT 1 [ RunTime:0.000421s ]

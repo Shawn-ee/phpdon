@@ -1,0 +1,13 @@
+[2023-11-29T00:47:58+08:00][sql] CONNECT:[ UseTime:0.000330s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-29T00:47:58+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000733s ]
+[2023-11-29T00:47:58+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000462s ]
+[2023-11-29T00:47:58+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000349s ]
+[2023-11-29T00:47:58+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000320s ]
+[2023-11-29T00:48:06+08:00][sql] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-29T00:48:06+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000759s ]
+[2023-11-29T00:48:06+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000508s ]
+[2023-11-29T00:48:06+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_user_list` [ RunTime:0.000880s ]
+[2023-11-29T00:48:06+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `openid` = 'oNifo5sC4INdKoN49Gd6Kr8T2KMg'  AND `uniacid` = 666  AND `status` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[2023-11-29T00:48:06+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `web_openid` = 'oNifo5sC4INdKoN49Gd6Kr8T2KMg' LIMIT 1 [ RunTime:0.003352s ]
+[2023-11-29T00:48:06+08:00][sql] INSERT INTO `ims_massage_service_user_list` SET `uniacid` = 666 , `nickName` = '晚风吹行舟，花路入溪口' , `avatarUrl` = 'https://thirdwx.qlogo.cn/mmopen/vi_32/BfOcoPbEfatyAianbXibVyV1ia8w6YPKiaiap0yALThHAZzXQ4EZiaIUsIbvroI8tgcuynPM1RPYcT8ucuiaa9UAmPebA/132' , `unionid` = '' , `gender` = 0 , `city` = '' , `province` = '' , `country` = '' , `openid` = 'oNifo5sC4INdKoN49Gd6Kr8T2KMg' , `web_openid` = 'oNifo5sC4INdKoN49Gd6Kr8T2KMg' , `cap_id` = 0 , `last_login_type` = 2 , `create_time` = 1701190086 , `status` = 1 [ RunTime:0.006454s ]
+[2023-11-29T00:48:06+08:00][sql] SELECT * FROM `ims_massage_service_user_list` WHERE  `id` = 3901 LIMIT 1 [ RunTime:0.000336s ]

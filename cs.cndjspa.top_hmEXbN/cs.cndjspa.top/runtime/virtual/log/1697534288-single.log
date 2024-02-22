@@ -1,0 +1,10 @@
+[2023-10-11T15:43:35+08:00][sql] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-10-11T15:43:35+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.001247s ]
+[2023-10-11T15:43:35+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000342s ]
+[2023-10-11T15:43:35+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_aliyun_play_record` [ RunTime:0.002953s ]
+[2023-10-11T15:43:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_aliyun_play_record` WHERE  `uniacid` = 666  AND `out_id` = '4381' LIMIT 1 [ RunTime:0.000417s ]
+[2023-10-11T15:45:21+08:00][sql] CONNECT:[ UseTime:0.000291s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-10-11T15:45:21+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.001820s ]
+[2023-10-11T15:45:21+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000264s ]
+[2023-10-11T15:45:21+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_aliyun_play_record` [ RunTime:0.001530s ]
+[2023-10-11T15:45:21+08:00][sql] SELECT COUNT(*) AS think_count FROM `ims_massage_aliyun_play_record` WHERE  `uniacid` = 666  AND `out_id` = '4381' LIMIT 1 [ RunTime:0.000366s ]

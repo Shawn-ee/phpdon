@@ -1,0 +1,9 @@
+[2023-11-07T17:48:10+08:00][sql] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-07T17:48:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000768s ]
+[2023-11-07T17:48:10+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000472s ]
+[2023-11-07T17:48:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_user_list` [ RunTime:0.000480s ]
+[2023-11-07T17:48:10+08:00][sql] SELECT `balance` FROM `ims_massage_service_user_list` WHERE  `id` = 845 LIMIT 1 [ RunTime:0.000190s ]
+[2023-11-07T17:48:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_oos_config` [ RunTime:0.000645s ]
+[2023-11-07T17:48:10+08:00][sql] SELECT * FROM `ims_shequshop_school_oos_config` WHERE  `uniacid` = 666  AND `deleted` = 0 LIMIT 1 [ RunTime:0.000283s ]
+[2023-11-07T17:48:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_attachment` [ RunTime:0.000607s ]
+[2023-11-07T17:48:10+08:00][sql] INSERT INTO `ims_shequshop_school_attachment` SET `attachment` = 'image/666/23/11/c4400066a898409ab43d905afd4e1281.jpg' , `uniacid` = 666 , `filename` = '1699350482184.jpg' , `createtime` = 1699350490 , `type` = 1 , `longbing_driver` = 'loacl' , `uid` = 845 , `module_upload_dir` = '0' , `group_id` = 0 [ RunTime:0.000211s ]

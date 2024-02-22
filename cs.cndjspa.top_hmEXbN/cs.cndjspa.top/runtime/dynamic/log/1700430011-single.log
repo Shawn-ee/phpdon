@@ -1,0 +1,10 @@
+[2023-11-20T05:40:10+08:00][sql] CONNECT:[ UseTime:0.000348s ] mysql:host=127.0.0.1;port=3306;dbname=love_9img_cn;charset=utf8mb4
+[2023-11-20T05:40:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_config` [ RunTime:0.000815s ]
+[2023-11-20T05:40:10+08:00][sql] SELECT * FROM `ims_shequshop_school_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000444s ]
+[2023-11-20T05:40:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_shield_list` [ RunTime:0.000422s ]
+[2023-11-20T05:40:10+08:00][sql] SELECT `coach_id` FROM `ims_massage_shield_list` WHERE  `user_id` = 3880 [ RunTime:0.000186s ]
+[2023-11-20T05:40:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_dynamic_follow` [ RunTime:0.000426s ]
+[2023-11-20T05:40:10+08:00][sql] SELECT COUNT(*) AS think_count FROM ( SELECT count(*) AS think_count FROM `ims_massage_dynamic_follow` `a` INNER JOIN `ims_massage_dynamic_list` `b` ON `a`.`coach_id`=b.coach_id AND a.create_time < b.create_time WHERE  `a`.`user_id` = '3880'  AND `b`.`status` = '2'  AND 1 = 1 GROUP BY `b`.`id` ) `_group_count_` LIMIT 1 [ RunTime:0.000438s ]
+[2023-11-20T05:40:10+08:00][sql] SELECT COUNT(*) AS think_count FROM ( SELECT count(*) AS think_count FROM `ims_massage_dynamic_follow` `a` INNER JOIN `ims_massage_dynamic_list` `b` ON `a`.`coach_id`=b.coach_id AND a.create_time < b.create_time INNER JOIN `ims_massage_dynamic_watch_record` `c` ON `b`.`id`=`c`.`dynamic_id` WHERE  `a`.`user_id` = '3880'  AND `b`.`status` = '2'  AND 1 = 1 GROUP BY `b`.`id` ) `_group_count_` LIMIT 1 [ RunTime:0.000509s ]
+[2023-11-20T05:40:10+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_service_coach_list` [ RunTime:0.000480s ]
+[2023-11-20T05:40:10+08:00][sql] SELECT * FROM `ims_massage_service_coach_list` WHERE  `user_id` = 3880  AND `status` = 2 LIMIT 1 [ RunTime:0.000383s ]

@@ -1,0 +1,10 @@
+[2024-01-11T21:37:00+08:00][sql] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-11T21:37:00+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000710s ]
+[2024-01-11T21:37:00+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000300s ]
+[2024-01-11T21:37:00+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_oos_config` [ RunTime:0.000775s ]
+[2024-01-11T21:37:00+08:00][sql] SELECT * FROM `ims_shequshop_school_oos_config` WHERE  `uniacid` = 666  AND `deleted` = 0 LIMIT 1 [ RunTime:0.000433s ]
+[2024-01-11T21:37:01+08:00][sql] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-11T21:37:01+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000596s ]
+[2024-01-11T21:37:01+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000303s ]
+[2024-01-11T21:37:01+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_attachment_group` [ RunTime:0.000443s ]
+[2024-01-11T21:37:01+08:00][sql] SELECT * FROM `ims_shequshop_school_attachment_group` WHERE  `name` LIKE '%%'  AND `uniacid` = 666 ORDER BY `id` [ RunTime:0.000266s ]

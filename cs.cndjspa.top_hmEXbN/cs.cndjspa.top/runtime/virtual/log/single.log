@@ -1,0 +1,12 @@
+[2024-01-11T20:47:13+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-11T20:47:13+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000713s ]
+[2024-01-11T20:47:13+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000320s ]
+[2024-01-11T20:47:13+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_aliyun_phone_config` [ RunTime:0.000755s ]
+[2024-01-11T20:47:13+08:00][sql] SELECT * FROM `ims_massage_aliyun_phone_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000303s ]
+[2024-01-11T21:42:27+08:00][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=cs_cndjspa_top;charset=utf8mb4
+[2024-01-11T21:42:27+08:00][sql] SHOW FULL COLUMNS FROM `ims_shequshop_school_admin` [ RunTime:0.000736s ]
+[2024-01-11T21:42:27+08:00][sql] SELECT `id` FROM `ims_shequshop_school_admin` WHERE  `admin_pid` = 1 [ RunTime:0.000290s ]
+[2024-01-11T21:42:27+08:00][sql] SHOW FULL COLUMNS FROM `ims_massage_aliyun_phone_config` [ RunTime:0.000949s ]
+[2024-01-11T21:42:27+08:00][sql] SELECT * FROM `ims_massage_aliyun_phone_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000502s ]
+[2024-01-11T21:42:27+08:00][sql] INSERT INTO `ims_massage_aliyun_phone_config` SET `uniacid` = 666 [ RunTime:0.003047s ]
+[2024-01-11T21:42:27+08:00][sql] SELECT * FROM `ims_massage_aliyun_phone_config` WHERE  `uniacid` = 666 LIMIT 1 [ RunTime:0.000354s ]
